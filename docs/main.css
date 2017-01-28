@@ -1,0 +1,49 @@
+/* Initialize CSS */
+* { padding: 0; margin: 0; border: 0; } 
+
+.main
+{
+	padding: 0 0 0 100px ;
+}
+
+.main h2
+{
+	padding: 20px 0;
+}
+
+.user_pr h2
+{
+	padding: 20px 0;
+}
+
+iron-icon
+{
+	margin: 0 10px 0 5px;
+}
+
+.paper-tabs
+{
+	width: 190px;
+}
+
+paper-toolbar
+{
+	margin: 0 0 20px 0;
+}
+
+.paper-button-0
+{
+	margin : 0;
+}
+
+paper-material
+{
+	width: 500px;
+	margin: 0 0 10px 0;
+}
+
+p
+{
+	padding: 5px 0 5px 0;
+	vertical-align: middle;
+}

@@ -4,13 +4,60 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no"><!-- respond to various environment -->
 		<title>PR실습 페이지</title>
-		<script src="bower_components/webcomponents-lite.min.js"></script>
+		<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 		<link rel="import" href="bower_components/polymer/polymer.html">
+		<link rel="import" href="bower_components/paper-button/paper-button.html">
+		<link rel="import" href="bower_components/iron-icon/iron-icon.html">
+		<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+		<link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+		<link rel="import" href="bower_components/paper-tabs/paper-tabs.html">
+		<link rel="import" href="bower_components/paper-tab/paper-tab.html">
+		<link rel="import" href="bower_components/paper-material/paper-material.html">
 
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 
 	<body>
-	</body>
+		<div class="top">
+			<paper-toolbar class="tall">
+				<span class="title"><h1>Pull Request 실습 페이지</h1></span>
+				<span class="middle title"><h2>git/github 입문의 최종 PR 연습 페이지입니다.</h2></span>
+			</paper-toolbar>
+		</div>
 
+		<div class="main">
+			<p>git/github 입문 자료를 따라해보고 Pull Request를 보내주세요</p>
+			<paper-material elevation="2">
+				<!-- 아래에 있는 문장 샘플을 복사해서 쓰면 됩니다 -->
+				<p id="PR_MSG">메시지 내용을 입력하세요<@닉네임></p>
+			</paper-material>
+
+			<a href="https://github.com/E-nuri/git_beginner">
+				<paper-button raised>
+					<iron-icon icon="icons:cloud-upload">
+					</iron-icon>
+					Send me Pull Request
+				</paper-button>
+			</a>
+			</paper-tab>
+
+
+			<h2> 주의사항</h2>
+			<p>확인하고 정상적으로 작성하셨다면 Merge해드립니다.</p>
+			<p>수시로 확인하지만 PR반영이 늦을 수 있습니다.</p>
+
+
+			<div class="user_pr">
+				<h2>PR 실습 결과</h2>
+				<paper-material elevation="2"><p id="PR_MSG">Pull Request Test #1<@enuri91></p></paper-material>
+				<paper-material elevation="2"><p id="PR_MSG">Pull Request Test #2<@enuri91></p></paper-material>
+				<!-- 아래에 붙여넣고 코멘트 작성해주세요 -->
+
+
+
+
+
+			</div>
+		</div>
+	</body>
 </html>
