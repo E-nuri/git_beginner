@@ -4,7 +4,7 @@
 >[https://github.com/E-nuri/git_beginner](https://github.com/E-nuri/git_beginner)
 
 ### source code / guide slide file
->[download link](https://goo.gl/VYPBPn)
+>[download link](https://goo.gl/Gq51j5)
 
 ### Pull Request Test Page
 >[Pull Request Test page link](https://e-nuri.github.io/git_beginner/)
