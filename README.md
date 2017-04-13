@@ -2,7 +2,7 @@
 
 ### git/github 튜토리얼
 >[https://github.com/E-nuri/git_beginner](https://github.com/E-nuri/git_beginner)
-
+XXXX
 ### source code / guide slide file
 >[download link](https://goo.gl/Gq51j5)
 
